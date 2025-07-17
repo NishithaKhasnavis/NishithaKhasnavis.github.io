@@ -1,0 +1,440 @@
+<!DOCTYPE HTML>
+<!--
+	Dimension by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Nishitha Khasnavis</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div>
+							<img src="images/nishi.jpeg" alt="Nishitha Khasnavis" class="profile-pic" />
+						</div>
+						<div class="content">
+							<div class="inner">
+								<h1>Nishitha Khasnavis</h1>
+								<p>Passionate computer science student building purposeful and scalable software solutions.</p>
+							<a target="_blank" href="https://www.linkedin.com/in/nishitha-khasnavis">LINKEDIN</a>
+							</div>
+						</div>
+						<nav>
+							<ul>
+								<li><a href="#intro">Intro</a></li>
+								<li><a href="#experience">Experience</a></li>
+								<li><a href="#projects">Projects</a></li>
+								<li><a href="#skills">Skills</a></li>
+								<li><a href="#contact">Contact</a></li>
+								<!--<li><a href="#elements">Elements</a></li>-->
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Intro -->
+							<article id="intro">
+								<h3 class="major">About me</h3>
+								<p> Hello! My name is Nishitha and I'm a computer science student at the University of Virginia. I have a passion for building purposeful and scalable software solutions that have a meaningful impact. </p>
+								<p>Through my internships and research experience, I’ve built full-stack applications, deployed cloud-native systems, developed ML pipelines and fine-tuned large language models . I am also actively involved in UVA’s Girls Who Code and the Society of Women Engineers - communities that have shaped my interest in ethical, inclusive innovation.</p>
+								<p>I am excited for the opportunity to apply these skills in mission-driven environments, where I get to contribute to developments that make people's lives better. As I continue learning and growing, I look forward to collaborating on purposeful projects that challenge me and push the boundaries of what’s possible.</p>
+								<p>Feel free to explore this website to learn more about my work — or <a href="#contact">contact</a> me here! You can also email me at nishitha.khasnavis@gmail.com </p>
+							</article>
+
+						<!-- Experience -->
+							<article id="experience">
+								<h3 class="major">Software Engineer Intern @ VocsAI </h3> 
+								<p>(March 2025 - July 2025)</p>
+								<p>As a Software Engineering Intern at VocsAI, I led the full-stack development of a voice synthesis web application that enables real-time user interaction and dynamic audio generation. I built the frontend using React, designed responsive UI components, and developed scalable backend services using Node.js and FastAPI.</p>
+								<p>To manage data effectively, I designed relational schemas with SQL for user and session data, and used MongoDB for optimized storage of audio metadata in a document-based structure. I also implemented and deployed RESTful APIs to improve data flow across services, which reduced frontend latency by approximately 15%, resulting in a smoother user experience.</p>
+								<p>On the infrastructure side, I deployed the application to AWS EC2, managed static content with S3, and gained hands-on experience in orchestrating a cloud-native architecture that scales efficiently. This experience gave me practical exposure to cross-service communication, cloud deployment workflows, and performance monitoring in production environments.</p> 
+								<p>Through this project, I strengthened my understanding of end-to-end web development, API design, cloud infrastructure, and building real-world systems that are both scalable and user-centric.</p>
+								<br />
+								<br />
+								<br />
+
+								<h3 class="major">Student Researcher @ Aikyam Lab (UVA) </h3>
+								<p>(May 2025 - Present)</p>
+								<p>At the Aikyam Lab, I am working on research that addresses a timely and critical challenge: how to enable machine unlearning in personalized recommender systems. Under the mentorship of Professors Chirag Agrawal and Sam Levy (UVA Darden School of Business), my focus is on building high-performance recommendation pipelines using Large Language Models (LLMs). This will serve as the foundation for exploring efficient and scalable unlearning techniques - allowing a model to "forget" specific users or interactions without full retraining.</p>
+								<p>My contributions began with the development of a robust Python-based data pipeline to support model training and experimentation. Using pandas, I processed and structured over 100,000 user-item interactions, transforming raw clickstream data into a clean, memory-efficient format. The pipeline handles user filtering, sequence generation, and input-output alignment for modeling personalized product interactions, ensuring data quality and performance consistency throughout the workflow.</p>
+								<p>To build a powerful base recommender, I fine-tuned LLaMA-3.2-1B, an open-source LLM, using Unsloth with LoRA (Low-Rank Adaptation). This allowed for rapid experimentation on modest hardware without compromising performance. Training and evaluation were implemented in PyTorch, and I used Hugging Face Transformers for modular access to tokenization, model layers, and configuration control. I also created custom dataset splits to evaluate model generalization and robustness across different user behavior patterns and item types. </p>
+								<p>Performance was measured using industry-standard ranking metrics such as Recall@5, NDCG@5, and MRR, implemented with the ranx evaluation toolkit. These metrics allowed for clear comparison across different training strategies and highlighted the model’s ability to retrieve relevant products effectively and consistently.</p>
+								<p>While the current phase emphasizes building a strong baseline model, the next phase of the project will explore machine unlearning methods — such as gradient-based removal, retraining triggers, or data deletion-aware regularization — that can selectively forget individual user histories or interactions. This line of work is critical for ensuring compliance with privacy regulations and user-centered model governance.</p>
+								<p>This experience has deepened my experience in large-scale model training, LLM fine-tuning, information retrieval, and the design of privacy-preserving ML systems. It represents a meaningful blend of core machine learning principles, scalable engineering, and responsible AI, all within the context of a real-world problem space.</p>
+								<br />
+								<br />
+								<br />
+
+
+								<h3 class="major">Student Researcher @ Aikyam Lab (UVA) </h3>
+								<p>(August 2024 - May 2025)</p>
+								<p>In recent years, Large Language Models (LLMs) have rapidly advanced and become integral to a wide range of applications - from chatbots and virtual assistants to content generation tools and personalized search engines. However, these systems often operate as black boxes and can unintentionally leak sensitive information, especially when trained on user-generated or proprietary data. As part of my research with Professor David Evans, I am exploring ways to systematically identify, simulate, and mitigate these privacy risks through automated information disclosure audits.</p>
+								<p>My work involves developing a novel methodology that enables auditing LLM-based systems for potential information leakage. I focus on an approach called auditing-by-parity, where we simulate an adversary who queries the system with crafted inputs designed to elicit sensitive responses. To conduct these audits, I utilize OpenAI APIs in combination with advanced NLP frameworks like Hugging Face Transformers and PyTorch. This setup allows me to reproduce real-world attack scenarios and assess how much confidential or memorized information the model may expose.</p>
+								<p>One of the key components of this research has been the development of a robust and modular pipeline for data preprocessing, model training, and evaluation. This pipeline automates the process of crafting adversarial prompts, querying LLMs, and evaluating the responses.</p>
+								<p>This research sits at the intersection of machine learning, security, and privacy - areas that I am deeply passionate about. It requires not only a strong understanding of model deep learning workflows but also creative thinking to simulate threats and devise countermeasures. </p>
+								<p>The broader goal of this work is to help developers, researchers, and organizations deploy LLMs more responsibly - with greater transparency, auditability, and trust. As LLMs become ubiquitous, ensuring that they don’t leak sensitive training data is not just a technical issue but a societal one. Through this project, I hope to contribute to building safer and more privacy-aware AI systems.</p>
+								<br />
+								<br />
+								<br />
+
+
+							</article>
+
+						<!-- Projects -->
+							<article id="projects">
+								<h3 class="major">CoveStack</h3>
+								<p>(June 2025 - Present)</p>
+								<p>CoveStack is a personal project born out of a common frustration I face as a developer - constantly switching between disconnected tools like GitHub, Slack, Notion, VSCode, and shared docs during team-based projects. This fragmentation often breaks flow, slows collaboration, and makes it harder to focus on building. I realized this isn’t just my problem - it's something many engineers experience daily.
+
+									<p>To solve this, I started building CoveStack, a cloud-native collaboration platform that brings together code sharing, task management, and real-time communication into a single, unified workspace. The vision is to streamline workflows and create a tool that lets teams focus on solving problems and significantly improve productivity.
+										</p>
+									<p>Technically, CoveStack is powered by a modular backend built with FastAPI and Node.js (Fastify), supporting workspace isolation and plugin extensibility. I am designing normalized relational schemas in PostgreSQL to support concurrent operations across multiple collaborative workspaces. The frontend is built with React, TypeScript, and TailwindCSS, ensuring a responsive, user-centric interface that performs well across devices.
+									</p>
+									<p>For deployment, I will containerize the infrastructure using Docker, automated deployment with CI/CD pipelines, and leveraged AWS for scalable cloud hosting. Monitoring is handled via Firebase and AWS CloudWatch, which helped reduce response time by 40% during feature testing.
+										</p>
+									<p>CoveStack reflects my interest in building systems that are functional, scalable, and developer-friendly. It aligns closely with my passion for developing innovative solutions that not only improve individual productivity but also foster a stronger sense of collaboration and shared purpose within developer communities.</p>
+								</p>
+							</article>
+						
+						<!-- Skills -->
+							<article id="skills">
+								<h3 class="major">Languages</h3>
+								<p>Python, Java, C, JavaScript, SQL, HTML, CSS, YAML, Shell(Bash), MATLAB</p><br />
+
+								<h3 class="major">Frameworks & Libraries</h3>
+								<p>React, Node.js, FastAPI, Django, Angular, PyTorch, TensorFlow, Hugging Face Transformers, Zustand, TRL,
+Unsloth</p><br />
+
+								<h3 class="major">Technologies</h3>
+								<p>AWS (EC2, S3, RDS, CloudFront, CloudWatch), Firebase, Docker, GitHub, Git, CI/CD, REST APIs, Pandas, NumPy, OpenCV,
+OpenAI API, Stripe API, Groq API, OAuth2, JWT, RBAC, GitHub Actions, Agile</p><br />
+
+								<h3 class="major">Databases</h3>
+								<p>PostgreSQL, MongoDB</p><br />
+
+								<h3 class="major">Collaboration</h3>
+								<p>Figma, Adobe XD, Autodesk Inventor, Fusion 360, Microsoft Teams, Slack, Microsoft Word, Microsoft Excel</p><br />
+							</article>
+
+						<!-- Contact -->
+							<article id="contact">
+								<h3 class="major">Let's Connect</h3>
+								<form id="contact-form">
+									<div class="fields">
+										<div class="field half">
+											<label for="name">Name</label>
+											<input type="text" name="name" id="name" required/>
+										</div>
+										<div class="field half">
+											<label for="email">Email</label>
+											<input type="text" name="email" id="email" />
+										</div>
+										<div class="field">
+											<label for="message">Message</label>
+											<textarea name="message" id="message" rows="4" required></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send Message" class="primary" /></li>
+										<li><input type="reset" value="Reset" /></li>
+									</ul>
+								</form>
+								<ul class="icons">
+									<li><a href="#" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
+								</ul>
+							</article>
+
+						<!-- Elements -->
+							<article id="elements">
+								<h2 class="major">Elements</h2>
+
+								<section>
+									<h3 class="major">Text</h3>
+									<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
+									This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
+									This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
+									<hr />
+									<h2>Heading Level 2</h2>
+									<h3>Heading Level 3</h3>
+									<h4>Heading Level 4</h4>
+									<h5>Heading Level 5</h5>
+									<h6>Heading Level 6</h6>
+									<hr />
+									<h4>Blockquote</h4>
+									<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
+									<h4>Preformatted</h4>
+									<pre><code>i = 0;
+
+while (!deck.isInOrder()) {
+    print 'Iteration ' + i;
+    deck.shuffle();
+    i++;
+}
+
+print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
+								</section>
+
+								<section>
+									<h3 class="major">Lists</h3>
+
+									<h4>Unordered</h4>
+									<ul>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Sagittis adipiscing.</li>
+										<li>Felis enim feugiat.</li>
+									</ul>
+
+									<h4>Alternate</h4>
+									<ul class="alt">
+										<li>Dolor pulvinar etiam.</li>
+										<li>Sagittis adipiscing.</li>
+										<li>Felis enim feugiat.</li>
+									</ul>
+
+									<h4>Ordered</h4>
+									<ol>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Etiam vel felis viverra.</li>
+										<li>Felis enim feugiat.</li>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Etiam vel felis lorem.</li>
+										<li>Felis enim et feugiat.</li>
+									</ol>
+									<h4>Icons</h4>
+									<ul class="icons">
+										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+										<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+									</ul>
+
+									<h4>Actions</h4>
+									<ul class="actions">
+										<li><a href="#" class="button primary">Default</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+									<ul class="actions stacked">
+										<li><a href="#" class="button primary">Default</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+								</section>
+
+								<section>
+									<h3 class="major">Table</h3>
+									<h4>Default</h4>
+									<div class="table-wrapper">
+										<table>
+											<thead>
+												<tr>
+													<th>Name</th>
+													<th>Description</th>
+													<th>Price</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Item One</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Two</td>
+													<td>Vis ac commodo adipiscing arcu aliquet.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Three</td>
+													<td> Morbi faucibus arcu accumsan lorem.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Four</td>
+													<td>Vitae integer tempus condimentum.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Five</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+											</tbody>
+											<tfoot>
+												<tr>
+													<td colspan="2"></td>
+													<td>100.00</td>
+												</tr>
+											</tfoot>
+										</table>
+									</div>
+
+									<h4>Alternate</h4>
+									<div class="table-wrapper">
+										<table class="alt">
+											<thead>
+												<tr>
+													<th>Name</th>
+													<th>Description</th>
+													<th>Price</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Item One</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Two</td>
+													<td>Vis ac commodo adipiscing arcu aliquet.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Three</td>
+													<td> Morbi faucibus arcu accumsan lorem.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Four</td>
+													<td>Vitae integer tempus condimentum.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Five</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+											</tbody>
+											<tfoot>
+												<tr>
+													<td colspan="2"></td>
+													<td>100.00</td>
+												</tr>
+											</tfoot>
+										</table>
+									</div>
+								</section>
+
+								<section>
+									<h3 class="major">Buttons</h3>
+									<ul class="actions">
+										<li><a href="#" class="button primary">Primary</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+									<ul class="actions">
+										<li><a href="#" class="button">Default</a></li>
+										<li><a href="#" class="button small">Small</a></li>
+									</ul>
+									<ul class="actions">
+										<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
+										<li><a href="#" class="button icon solid fa-download">Icon</a></li>
+									</ul>
+									<ul class="actions">
+										<li><span class="button primary disabled">Disabled</span></li>
+										<li><span class="button disabled">Disabled</span></li>
+									</ul>
+								</section>
+
+								<section>
+									<h3 class="major">Form</h3>
+									<form method="post" action="#">
+										<div class="fields">
+											<div class="field half">
+												<label for="demo-name">Name</label>
+												<input type="text" name="demo-name" id="demo-name" value="" placeholder="Jane Doe" />
+											</div>
+											<div class="field half">
+												<label for="demo-email">Email</label>
+												<input type="email" name="demo-email" id="demo-email" value="" placeholder="jane@untitled.tld" />
+											</div>
+											<div class="field">
+												<label for="demo-category">Category</label>
+												<select name="demo-category" id="demo-category">
+													<option value="">-</option>
+													<option value="1">Manufacturing</option>
+													<option value="1">Shipping</option>
+													<option value="1">Administration</option>
+													<option value="1">Human Resources</option>
+												</select>
+											</div>
+											<div class="field half">
+												<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+												<label for="demo-priority-low">Low</label>
+											</div>
+											<div class="field half">
+												<input type="radio" id="demo-priority-high" name="demo-priority">
+												<label for="demo-priority-high">High</label>
+											</div>
+											<div class="field half">
+												<input type="checkbox" id="demo-copy" name="demo-copy">
+												<label for="demo-copy">Email me a copy</label>
+											</div>
+											<div class="field half">
+												<input type="checkbox" id="demo-human" name="demo-human" checked>
+												<label for="demo-human">Not a robot</label>
+											</div>
+											<div class="field">
+												<label for="demo-message">Message</label>
+												<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+											</div>
+										</div>
+										<ul class="actions">
+											<li><input type="submit" value="Send Message" class="primary" /></li>
+											<li><input type="reset" value="Reset" /></li>
+										</ul>
+									</form>
+								</section>
+
+							</article>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<p class="copyright">&copy; Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+					</footer>
+
+			</div>
+
+		<!-- BG -->
+			<div id="bg"></div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+
+		<script>
+		document.getElementById("contact-form").addEventListener("submit", async function(e) {
+			e.preventDefault();
+
+			const form = e.target;
+			const formData = new FormData(form);
+
+			await fetch("https://formspree.io/f/mblkjebb", {
+				method: "POST",
+				body: formData,
+				headers: { 'Accept': 'application/json' }
+			});
+
+			window.location.href = "thank-you.html";
+		});
+		</script>
+
+
+	</body>
+</html>
