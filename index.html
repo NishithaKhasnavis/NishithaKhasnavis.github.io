@@ -11,6 +11,66 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+		<style>
+			/* #changed: Make profile pic scale on mobile */
+			.profile-pic {
+				width: 100%;
+				max-width: 160px;
+				height: auto;
+				border-radius: 50%;
+				display: block;
+				margin: 0 auto;
+			}
+	
+			/* #changed: Mobile responsiveness */
+			@media screen and (max-width: 768px) {
+				#header .content .inner {
+					padding: 1rem;
+				}
+				#header nav ul {
+					display: flex;
+					flex-direction: column;
+					gap: 0.5rem;
+					align-items: center;
+					padding-left: 0;
+					list-style: none;
+				}
+				#header nav ul li {
+					margin: 0;
+				}
+				#main article {
+					padding: 1rem;
+					font-size: 0.95rem;
+					line-height: 1.6;
+					word-wrap: break-word;
+				}
+				#header h1 {
+					font-size: 1.75rem;
+				}
+				#header p,
+				#header a {
+					font-size: 1rem;
+				}
+				footer {
+					text-align: center;
+					padding: 1rem;
+				}
+			}
+
+			/* #changed: Prevent content from overflowing on small screens */
+			html, body {
+				overflow-x: hidden; 
+			}
+			
+			#main article {
+				max-width: 100%; 
+				box-sizing: border-box;  
+				word-wrap: break-word; 
+				overflow-wrap: break-word; 
+			}
+
+		</style>
 	</head>
 	<body class="is-preload">
 
