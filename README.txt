@@ -1,1 +1,1 @@
-Nishitha Khasnavis's personal website : https://nishithakhasnavis.github.io/Landing-page/
+Nishitha Khasnavis's personal website : https://nishithakhasnavis.github.io/
